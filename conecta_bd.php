@@ -1,0 +1,19 @@
+<?php
+
+$server = "localhost";
+$user = "root";
+$password = "";
+$bd = "ClinicaA";
+
+function mensagem($texto, $tipo){
+    echo "<div class='alert alert-$tipo' role='alert' style='max-width:500px;margin:20px auto;'>$texto</div>";
+}
+
+$conn = mysqli_connect($server, $user, $password, $bd);
+
+if (!$conn) {
+    mensagem("Erro ao conectar no banco de dados!", "danger");
+}
+
+
+?>
