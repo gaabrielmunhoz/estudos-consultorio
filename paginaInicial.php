@@ -40,7 +40,7 @@
   </nav>
 
   <div class="form-container">
-    <form class="form-box">
+    <form class="form-box" method="post" action="script_cadastro_usuario.php" id="formCadastro">
       <h1 class="h3 mb-3 fw-normal text-center">Login</h1>
 
       <div class="mb-3">
