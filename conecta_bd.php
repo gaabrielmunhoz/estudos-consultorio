@@ -12,7 +12,7 @@ function mensagem($texto, $tipo){
 $conn = mysqli_connect($server, $user, $password, $bd);
 
 if (!$conn) {
-    mensagem("Erro ao conectar no banco de dados!", "danger");
+    die("Erro na conexão com o banco: " . mysqli_connect_error());
 }
 
 

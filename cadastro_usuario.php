@@ -33,7 +33,7 @@
 <body>
 
   <div class="form-container">
-    <form class="form-box" method="post" action="script_cadastro_usuario.php" id="formCadastro">
+    <form class="form-box" method="POST" action="script_cadastro_usuario.php" id="formCadastro">
         <h1 class="h4 mb-4 text-center">Cadastro de usuário</h1>
 
         <div class="mb-2">
@@ -64,7 +64,7 @@
 
         <div class="d-flex justify-content-center gap-2">
             <button type="button" class="btn btn-outline-secondary" onclick="window.location.href='paginaInicial.php'">Voltar</button>
-            <button type="submit" class="btn btn-outline-success" onclick="window.location.href='paginaInicial.php'">Cadastrar</button>
+            <button type="submit" class="btn btn-outline-success">Cadastrar</button>
         </div>
     </form>
   </div>
@@ -86,3 +86,4 @@
 
 </body>
 </html>
+
